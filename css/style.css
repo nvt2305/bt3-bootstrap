@@ -1,0 +1,72 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background: rgb(51, 51, 214);
+}
+
+.header-padding
+{
+    padding: 0;
+}
+
+h3
+{
+    padding-top: 0.5em;
+}
+.container-main
+{
+    background: white;
+    padding-bottom: 1em;
+}
+
+a
+{
+    color: white;
+    opacity: 0.9;
+}
+.nav-flex
+{
+    display: flex ;
+    justify-content: space-between;
+}
+
+td
+{
+    position: relative;
+}
+.fas
+{
+    background: red;
+    width: 20px;
+    height: 20px;
+    color: white;
+    position: relative;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.fa-times::before
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.table-bottom
+{
+    margin-bottom: 0;
+}
+.border-table
+{
+    border-radius: 5px;
+    overflow: hidden;
+}
+.space {
+    margin-right: 4px;
+}
